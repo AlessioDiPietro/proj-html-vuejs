@@ -1,5 +1,6 @@
 import Vue from 'vue'
 import App from './App.vue'
+import "@fontsource/actor"
 
 Vue.config.productionTip = false
 
