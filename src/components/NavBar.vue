@@ -1,5 +1,5 @@
 <template>
-  <div class="row px-5 box red_side">
+  <div class="row px-5 box">
             
             <!-- logo -->
             <div class="col-4 p-4">
@@ -41,12 +41,6 @@ header{
     img {
         width: 112px;
         height: 19px;
-    }
-    .red_side {
-        background-image: url("~@/assets/images/portrait-of-young-architect-woman-on-meeting-KFZCE3A.jpg");
-        background-repeat: no-repeat;
-        background-position: right;
-        height: 980px;
     }
     ul{
         li{

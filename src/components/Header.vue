@@ -1,8 +1,18 @@
 <template>
   <header>
-        <!-- navbar+ logo -->
+      <div class="red_side position-relative">
         <NavBar/>
-        
+        <div class="promo position-absolute">
+            <div class="green_line"></div>
+            <span>ALWATS THE BEST WAY YOU NEED IT</span>
+            <h1>THE BEST BUSINESS CONSULTING</h1>
+            <button>READ MORE</button>
+            <button><i class="fas fa-play"></i></button>
+        </div>
+
+      </div>
+        <!-- navbar+ logo -->
+
   </header>
 </template>
 
@@ -18,6 +28,30 @@ export default {
 }
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
+@import "@/assets/ColorPhloxVar.scss";
+.red_side {
+        background-image: url("~@/assets/images/portrait-of-young-architect-woman-on-meeting-KFZCE3A.jpg");
+        background-repeat: no-repeat;
+        background-position: right;
+        height: 980px;
+        .promo{
+            width: 600px;
+            left: 138px;
+            top: 25%;
+            font-size: 20px;
+            .green_line {
+                display: inline-block;
+                height: 3px;
+                width: 50px;
+                margin-right: 20px;
+                background-color: $opa_maringreen_bg;
+            }
+            h1 {
+                font-size: 120px;
+                font-weight:bolder;
+            }
+        }
+    }
 
 </style>
