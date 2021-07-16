@@ -1,7 +1,7 @@
 <template>
   <div id="app">
 
-    <div class="container-fluid">
+    <div class="container-fluid p-0">
     <!-- intestazione +jb -->
     <Header/>
 

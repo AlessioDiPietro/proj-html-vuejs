@@ -38,29 +38,33 @@ export default {
 <style lang="scss" scoped>
 @import "@/assets/ColorPhloxVar.scss";
 header{
-    img {
+    .box{
+        width: 100%;
+       img {
         width: 112px;
         height: 19px;
-    }
-    ul{
-        li{
-            list-style: none;
-            display: inline-block;
-            padding-top: 40px;
+        }
+        ul{
+            li{
+                list-style: none;
+                display: inline-block;
+                padding-top: 40px;
             
-            &:hover {
-                border-top: 3px solid white;
-                padding-top: 37px;
-                a{
-                    font-weight: 800;      
-                }
+                &:hover {
+                    border-top: 3px solid white;
+                    padding-top: 37px;
+                    a{
+                        font-weight: 800;      
+                    }
             }
             a{
                 color: $white_txt;
                 text-decoration: none;
             }
         }
+    } 
     }
+    
 }
 
 </style>

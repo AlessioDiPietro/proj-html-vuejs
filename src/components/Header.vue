@@ -37,7 +37,7 @@ export default {
         height: 980px;
         .promo{
             width: 600px;
-            left: 138px;
+            left: 162px;
             top: 25%;
             font-size: 20px;
             .green_line {
