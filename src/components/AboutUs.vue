@@ -1,6 +1,6 @@
 <template>
   <section>
-      <div class="box">
+      <div class="container-fluid p-0">
           <div class="row">
 
           <div class="left_side col">
@@ -11,6 +11,7 @@
                 <div class="line_titles "></div>
                 <span>ABOUT US</span>
                 <h2>WE MAKE YOUR STRATEGY WORK</h2>
+                <p>When, while lovely valley teems with vapour around meand eridian sun strikes the upper impenetrable foliage of my trees, and but a thousand unknown plants are noticed when I hear the buzz of the little world among the stalks,and grow familiar indescribable forms of the insects .and flies, then I feel the presence of the Almighty . </p>
               </div>
               
 
@@ -42,6 +43,10 @@ name : "AboutUs"
         font-size: 65px;
         font-weight: bold;
         margin-top: 20px;
+    }
+    p {
+        color: $title_grey_txt;
+        font-size: 19px
     }
 
 }
