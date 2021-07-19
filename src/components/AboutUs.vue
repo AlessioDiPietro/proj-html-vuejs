@@ -1,7 +1,7 @@
 <template>
   <section>
-      <div class="container-fluid p-0">
-        <div class="row">
+    <div class="container-fluid p-0">
+        <div class="row w-100">
 
             <div class="left_side col">
               <img src="@/assets/images/business-people-working-together-on-project-and-5FHSKBL.jpg" alt="Consulting People">
@@ -17,9 +17,11 @@
             </div>
 
         </div>
-        <StartedSubSec/>
 
-      </div>
+    </div>
+    
+    <StartedSubSec/>
+
   </section>
 </template>
 

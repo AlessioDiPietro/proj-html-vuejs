@@ -70,7 +70,7 @@ export default {
             height: 3px;
             width: 54%;
             margin-left: 55px;
-            background-color: #35ffbf;
+            background-color: $int_maringreen_bg;
             vertical-align: text-top;
         }
         li {
