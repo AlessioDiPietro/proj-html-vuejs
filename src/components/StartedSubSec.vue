@@ -27,6 +27,14 @@ export default {
     width: 90%;
     margin-left: 0;
     padding: 50px 160px;
+    color: $dark_blue_txt;
+    h3 {
+        font-size: 33px;
+        font-weight: bolder;
+    }
+    p {
+        font-size: 18px;
+    }
 }
 
 </style>
