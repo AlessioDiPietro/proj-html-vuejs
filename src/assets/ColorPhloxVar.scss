@@ -16,6 +16,8 @@ $dark_blue_txt: #1f1e38;
 
 //* txt size
 $title_sec_size: 20px;
+$title_sec_size_max: 35px;
+
 
 
 
@@ -29,5 +31,18 @@ $title_sec_size: 20px;
     margin:0 30px;
     background-color: #35ffbf;
 }
+@mixin title_sec_name {
+    font-size: 45px;
+    font-weight: bolder;
+    margin-top: 20px;
+}
+@mixin form_section_90 {
+    width: 90%;
+    margin: auto;
+}
+
+//! spaces
+
+$margin_sec_top: 220px;
 
 
