@@ -11,6 +11,22 @@ $white_bg: #ffffff;
 //* txt color
 $white_txt: #ffffff;
 $parag_grey_txt: #888888;
-$title_grey_txt: #aaaaaa
+$title_grey_txt: #aaaaaa;
+
+//* txt size
+$title_sec_size: 20px;
+
+
+
+//! mixin'
+
+
+@mixin sm_green_line {
+    display: inline-block;
+    height: 3px;
+    width: 50px;
+    margin:0 30px;
+    background-color: #35ffbf;
+}
 
 

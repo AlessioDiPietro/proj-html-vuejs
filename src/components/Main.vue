@@ -3,6 +3,9 @@
 
     <!-- section Our Consultats -->
     <Consults/>
+    
+    <!-- section about us -->
+    <AboutUs/>
 
     <!-- section project -->
     <Project/>
@@ -18,6 +21,7 @@
 </template>
 
 <script>
+import AboutUs from "@/components/AboutUs"
 import Consults from "@/components/Consults"
 import Project from "@/components/Project"
 import Testimonial from "@/components/Testimonial"
@@ -25,6 +29,7 @@ import Blog from "@/components/Blog"
 export default {
     name:"Main",
     components: {
+      AboutUs,
       Consults,
       Project,
       Testimonial,
