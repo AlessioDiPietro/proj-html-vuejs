@@ -1,6 +1,7 @@
 <template>
   <header>
       <div class="red_side position-relative">
+        <!-- navbar+ logo -->
         <NavBar/>
         <div class="promo position-absolute">
             <div class="green_line"></div>
@@ -11,7 +12,6 @@
         </div>
 
       </div>
-        <!-- navbar+ logo -->
 
   </header>
 </template>
