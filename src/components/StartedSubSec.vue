@@ -22,10 +22,11 @@ export default {
 
 <style lang="scss" scoped>
 @import "@/assets/ColorPhloxVar.scss";
+section{
+    @include form_section_left;
+}
 .bg_green {
     background-color: $opa_maringreen_bg;
-    width: 90%;
-    margin-left: 0;
     padding: 50px 160px;
     color: $dark_blue_txt;
     h3 {

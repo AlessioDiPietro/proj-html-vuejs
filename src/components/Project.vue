@@ -1,10 +1,10 @@
 <template>
   <section>
-      <div class="container fluid">
+      <div class="container-fluid">
 
           <div class="row d-flex">
 
-                <div class="project_title col-6">
+                <div class="project_title col-7">
                     <div class="line_titles"></div>
                     <span>PROJECT</span>
                     <h2>OUR EXPERT TRUSTED CONSULTANTS HELP CLIENTS</h2>
@@ -30,9 +30,9 @@ props:["imgSlider"]
 
 <style lang="scss" scoped>
 @import "@/assets/ColorPhloxVar.scss";
+
 section {
     @include form_section_90;
-    margin-top: $margin_sec_top;
     .project_title {
         .line_titles{
             @include sm_green_line;

@@ -1,6 +1,6 @@
 <template>
   <section>
-      <div class="container-fluid position-relative">
+      <div class="container-fluid position-relative w-100">
           <div class="btn_group position-absolute">
             <button @click="prevSlide()">prev</button> 
             <button @click="nextSlide()">next</button> 
@@ -50,12 +50,14 @@ export default {
 }
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 section {
     margin-top: 100px !important;
+    width: 98% !important;
     .btn_group {
     top: -160px;
     right: 0
+
 }
 }
 

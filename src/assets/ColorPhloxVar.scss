@@ -39,7 +39,17 @@ $title_sec_size_max: 35px;
 @mixin form_section_90 {
     width: 90%;
     margin: auto;
+    margin-top: 220px
 }
+@mixin form_section_left {
+    width: 95%;
+    margin-left: 0;
+}
+@mixin form_section_right {
+    width: 95%;
+    margin-left: 5%;
+}
+
 
 //! spaces
 
