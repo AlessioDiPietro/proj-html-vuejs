@@ -18,7 +18,7 @@
             </div>
 
         </div> 
-        <SliderImg/> 
+        <SliderImg :sliderImgTake="imgSlider"/> 
   </section>
 </template>
 
@@ -28,7 +28,8 @@ export default {
 name: "Project",
 components: {
     SliderImg,
-}
+},
+props:["imgSlider"]
 }
 </script>
 

@@ -3,12 +3,12 @@
 
     <!-- section Our Consultats -->
     <Consults/>
-    
+
     <!-- section about us -->
     <AboutUs/>
 
     <!-- section project -->
-    <Project/>
+    <Project :imgSlider="sliderImg"/>
 
     <!-- section Testimonial -->
     <Testimonial/>
@@ -34,7 +34,8 @@ export default {
       Project,
       Testimonial,
       Blog
-    }
+    },
+    props: ["sliderImg"]
 }
 </script>
 

@@ -6,7 +6,7 @@
     <Header/>
 
     <!-- corpo pagina + slider-->
-    <Main/>
+    <Main :sliderImg="imgSlider"/>
 
     <!-- info utili + anchor point -->
     <Footer/>
@@ -27,6 +27,15 @@ export default {
     Header,
     Main,
     Footer
+  },
+  data(){
+    return {
+      imgSlider: [
+        "DRY-1-790x592.jpg",
+        "221bf0b7-8134-43bb-936a-5acbe42db64a-790x592.jpg",
+        "z1el4c4p-790x592.jpg"
+      ]
+    }
   }
 }
 </script>
