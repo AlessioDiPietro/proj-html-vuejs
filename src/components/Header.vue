@@ -1,8 +1,16 @@
 <template>
   <header>
       <div class="red_side position-relative">
-        <!-- navbar+ logo -->
-        <NavBar/>
+
+        <div class="header_top d-flex justify-content-between">
+            
+            <img src="../assets/images/logotype.png" alt="logo">
+            <NavBar/>
+          
+        </div>
+
+
+
         <div class="promo position-absolute">
             <div class="green_line"></div>
             <span>ALWATS THE BEST WAY YOU NEED IT</span>
@@ -30,11 +38,15 @@ export default {
 
 <style lang="scss" scoped>
 @import "@/assets/ColorPhloxVar.scss";
-.red_side {
+    .red_side {
         background-image: url("~@/assets/images/portrait-of-young-architect-woman-on-meeting-KFZCE3A.jpg");
         background-repeat: no-repeat;
         background-position: right;
         height: 980px;
+        .header_top{
+            @include form_section_90;
+            margin-top: 0;
+        }
         .promo{
             width: 600px;
             left: 162px;
@@ -52,6 +64,12 @@ export default {
                 font-weight:bolder;
             }
         }
+    }
+    img {
+        width: 112px;
+        height: 19px;
+        margin-top: 43px;
+        
     }
 
 </style>

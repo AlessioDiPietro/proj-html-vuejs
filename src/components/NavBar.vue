@@ -1,19 +1,17 @@
 <template>
-  <div class="row px-5 box">
-            
-            <!-- logo -->
-            <div class="col-4 p-4">
-            <img src="../assets/images/logotype.png" alt="logo">
-            </div>
+<div class="container-fluid w-50 m-0 text-center">
+  <div class="row box">
 
             <!-- navbar -->
-            <div class="col-8 px-4 text-end">
-            <ul>
+            <div class="px-4">
+            <ul class="p-0">
                 <li v-for="(items,index) in navSuite" :key="index" class="mx-4"><a href="#">{{items}}</a></li>
             </ul>
             </div>
 
       </div>
+
+</div>
 </template>
 
 <script>
@@ -37,13 +35,8 @@ export default {
 
 <style lang="scss" scoped>
 @import "@/assets/ColorPhloxVar.scss";
-header{
     .box{
         width: 100%;
-       img {
-        width: 112px;
-        height: 19px;
-        }
         ul{
             li{
                 list-style: none;
@@ -54,17 +47,17 @@ header{
                     border-top: 3px solid white;
                     padding-top: 37px;
                     a{
-                        font-weight: 800;      
+                        font-weight: 800;
+                        color: $white_txt;     
                     }
-            }
+               }
+            }           
             a{
-                color: $white_txt;
+                color: $title_grey_txt;
                 text-decoration: none;
             }
         }
     } 
-    }
     
-}
 
 </style>
