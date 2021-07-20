@@ -56,6 +56,7 @@ export default {
 
 section {
     @include form_section_90;
+    padding-bottom: $margin_sec_top;
     .blog_title {
         .line_titles{
             @include sm_green_line;
@@ -90,7 +91,7 @@ section {
             font-weight: bolder;
             }
             p {
-            color: $title_grey_txt;
+            color: $parag_grey_txt;
             font-size: 19px
             }
         }

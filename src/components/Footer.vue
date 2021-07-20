@@ -1,10 +1,20 @@
 <template>
-  <footer>footer Area</footer>
+  <footer>
+    <FooterJumbo/>
+
+    <FooterInfo/>
+  </footer>
 </template>
 
 <script>
+import FooterJumbo from "@/components/FooterJumbo.vue"
+import FooterInfo from "@/components/FooterInfo.vue"
 export default {
-    name:"Footer"
+    name:"Footer",
+    components:{
+      FooterJumbo,
+      FooterInfo
+    }
 }
 </script>
 
