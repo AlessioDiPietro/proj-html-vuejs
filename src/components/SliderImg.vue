@@ -1,8 +1,10 @@
 <template>
   <section>
-      <div class="container-fluid">
-            <button @click="nextSlide()">clicca</button> 
-            <button @click="prevSlide()">clicca</button> 
+      <div class="container-fluid position-relative">
+          <div class="btn_group position-absolute">
+            <button @click="prevSlide()">prev</button> 
+            <button @click="nextSlide()">next</button> 
+          </div>
 
             <div class="slide-box d-flex justify-content-around">
 
@@ -49,5 +51,13 @@ export default {
 </script>
 
 <style lang="scss">
+section {
+    margin-top: 100px !important;
+    .btn_group {
+    top: -160px;
+    right: 0
+}
+}
+
 
 </style>

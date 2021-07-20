@@ -10,11 +10,6 @@
                     <h2>OUR EXPERT TRUSTED CONSULTANTS HELP CLIENTS</h2>
                 </div>
 
-                <div class="btn_slide col-6 d-flex justify-content-end align-items-center">
-                    <button>indietro</button>
-                    <button>avanti</button>
-                </div>
-
             </div>
 
         </div> 
