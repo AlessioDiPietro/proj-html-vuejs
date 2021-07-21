@@ -4,18 +4,18 @@
 
         <div class="header_top d-flex justify-content-between">
             
-            <img src="../assets/images/logotype.png" alt="logo">
+            <img src="../assets/images/logotype.png" alt="logo" class="animlogo">
             <NavBar/>
           
         </div>
 
 
 
-        <div class="promo position-absolute">
+        <div class="promo position-absolute slide-top">
             <div class="green_line"></div>
             <span>ALWATS THE BEST WAY YOU NEED IT</span>
             <h1>THE BEST BUSINESS CONSULTING</h1>
-            <button>READ MORE</button>
+            <button class="read_me">READ MORE</button>
             <button><i class="fas fa-play"></i></button>
         </div>
 
@@ -50,7 +50,7 @@ export default {
         .promo{
             width: 600px;
             left: 162px;
-            top: 25%;
+            top: 35%;
             font-size: 20px;
             .green_line {
                 display: inline-block;
@@ -63,13 +63,45 @@ export default {
                 font-size: 120px;
                 font-weight:bolder;
             }
+            .read_me {
+                @include btn_maringreen;
+            }
         }
     }
     img {
         width: 112px;
         height: 19px;
         margin-top: 43px;
-        
     }
+
+    .slide-top {
+	-webkit-animation: slide-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	animation: slide-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@-webkit-keyframes slide-top {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  100% {
+    -webkit-transform: translateY(-100px);
+            transform: translateY(-100px);
+  }
+}
+@keyframes slide-top {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  100% {
+    -webkit-transform: translateY(-100px);
+            transform: translateY(-100px);
+  }
+}
+
+    
+
+
 
 </style>

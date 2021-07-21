@@ -46,18 +46,15 @@ export default {
             
                 &:hover {
                     border-top: 3px solid white;
-                    padding-top: 37px;
-                    
+                    padding-top: 37px;  
                }
-                   
             }           
             a{
                 color: $title_grey_txt;
                 text-decoration: none;
                 &:focus {
-                font-weight: 800;
-                color: $white_txt;
-            }
+                    font-weight: 800;
+                }
             }
             
         }
