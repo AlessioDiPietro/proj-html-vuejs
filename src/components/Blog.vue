@@ -70,8 +70,55 @@ section {
         }
     }
     .btn_view {
-            @include btn_maringreen;
+        @include btn_maringreen;
+        &:hover{
+            animation: colorbtn 1s ease 0s 1 normal forwards;
+                @keyframes colorbtn {
+                0% {
+                animation-timing-function: ease-in;
+                opacity: 0;
+                transform: scale(7);
+                }
+
+                38% {
+                animation-timing-function: ease-out;
+                opacity: 1;
+                transform: scale(1);
+                }
+
+                55% {
+                    animation-timing-function: ease-in;
+                    transform: scale(1.5);
+                }
+
+                72% {
+                    animation-timing-function: ease-out;
+                    transform: scale(1);
+                }
+
+                81% {
+                    animation-timing-function: ease-in;
+                    transform: scale(1.24);
+                }
+
+                89% {
+                    animation-timing-function: ease-out;
+                    transform: scale(1);
+                }
+
+                95% {
+                    animation-timing-function: ease-in;
+                    transform: scale(1.04);
+                }
+
+                100% {
+                    animation-timing-function: ease-out;
+                    transform: scale(1);
+                    background-color: $int_red_bg;
+                }
+            }
         }
+    }
     aside {
         width: calc(100% / 2 - 20px);
         height: 590px;
@@ -101,9 +148,22 @@ section {
     }
     .left {
         background-image: url("../assets/images/startup-business-people-and-strategy-board-PAJ3P9K-1390x1042.jpg");
+        background-size: cover;
+        background-size: 100%;
+        transition: all 1.5s;
+        &:hover{
+            background-size: 130%;
+        }
+        
     }
     .right {
         background-image: url("../assets/images/business-people-working-together-on-project-and-5FHSKBL-1390.jpg");
+        background-position-y: center;
+        background-size: 100%;
+        transition: all 1.5s;
+        &:hover{
+            background-size: 130%;
+        }
     }
 }
 

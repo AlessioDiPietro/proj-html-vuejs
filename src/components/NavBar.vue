@@ -46,7 +46,7 @@ export default {
             
                 &:hover {
                     border-top: 3px solid white;
-                    padding-top: 37px;  
+                    padding-top: 36px;  
                }
             }           
             a{
@@ -54,6 +54,7 @@ export default {
                 text-decoration: none;
                 &:focus {
                     font-weight: 800;
+                    color: $white_txt;
                 }
             }
             

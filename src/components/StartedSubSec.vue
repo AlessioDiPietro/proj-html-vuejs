@@ -38,6 +38,54 @@ section{
     }
     .started_btn{
         @include btn_red;
+        &:hover{
+            animation: colorbtn 1s ease 0s 1 normal forwards;
+            @keyframes colorbtn {
+                0% {
+                    animation-timing-function: ease-in;
+                    opacity: 0;
+                    transform: scale(7);
+                }
+
+                38% {
+                    animation-timing-function: ease-out;
+                    opacity: 1;
+                    transform: scale(1);
+                }
+
+                55% {
+                    animation-timing-function: ease-in;
+                    transform: scale(1.5);
+                }
+
+                72% {
+                    animation-timing-function: ease-out;
+                    transform: scale(1);
+                }
+
+                81% {
+                    animation-timing-function: ease-in;
+                    transform: scale(1.24);
+                }
+
+                89% {
+                    animation-timing-function: ease-out;
+                    transform: scale(1);
+                }
+
+                95% {
+                    animation-timing-function: ease-in;
+                    transform: scale(1.04);
+                }
+
+                100% {
+                    animation-timing-function: ease-out;
+                    transform: scale(1);
+                    background-color: $blue_bg;
+                    color: $white_txt;
+                }
+            }    
+        } 
     }
 }
 
