@@ -1,6 +1,6 @@
 <template>
   <section class="p-5" id="CONTACT">
-      <div class="container-fluidc p-5">
+      <div class="container-fluid p-5">
           <div class="box_content p-5 text-center">
               <h2>LET'S TALK ABOUT WORK</h2>
               <p class="my-3">A wonderful serenity has taken possession Far far away, behind the word mountains.</p>
@@ -20,7 +20,9 @@ export default {
 @import "@/assets/ColorPhloxVar.scss";
 section {
     background-image: url("../assets/images/business-people-working-together-on-project-and-B3MZ4TX.jpg");
+    background-size: cover;
     .box_content{
+        
         h2{
             @include title_sec_name;
         }

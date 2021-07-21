@@ -42,7 +42,6 @@ export default {
                 list-style: none;
                 display: inline-block;
                 padding-top: 40px;
-                transition: all 1s linear;
             
                 &:hover {
                     border-top: 3px solid white;

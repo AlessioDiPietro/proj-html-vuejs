@@ -1,7 +1,7 @@
 <template>
   <section>
     <div class="container-fluid py-3">
-        <div class="row py-5">
+        <div class="row py-5 h_176 align-items-center">
 
             <div class="img_box w-25 pt-5">
                 <img src="@/assets/images/logotype-2-300x50.png" alt="logo">
@@ -46,6 +46,9 @@ export default {
 section{
     @include form_section_90;
     margin-top: 0;
+    .h_176{
+        height: 176px;
+    }
     img{
         width:139px;
         height:23px
