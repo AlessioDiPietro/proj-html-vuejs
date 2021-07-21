@@ -76,13 +76,43 @@ section {
             
         }
         .first{
-            background-image: url("../assets/images/oliver-ragfelt-488196-2.jpg");
+            background-image: none;
+            transition:all 2s linear;
+            &:hover{
+                background-image: url("../assets/images/oliver-ragfelt-488196-2.jpg");
+                h3{
+                    color:$white_txt;
+                }
+                p {
+                    color:$title_grey_txt;
+                }
+            }
         }
         .second{
-            background-image: url("../assets/images/oliver-ragfelt-488196-unsplash.jpg");
+            background-image: none;
+            transition:all 1s linear;
+            &:hover{
+                background-image: url("../assets/images/oliver-ragfelt-488196-unsplash.jpg");
+                h3{
+                    color:$white_txt;
+                }
+                p {
+                    color:$title_grey_txt;
+                }
+            }
         }
         .third{
-            background-image: url("../assets/images/12679.jpg");
+            background-image: none;
+            transition:all 1s linear;
+            &:hover{
+                background-image: url("../assets/images/12679.jpg");
+                h3{
+                    color:$white_txt;
+                }
+                p {
+                    color:$title_grey_txt;
+                }
+            }
         }
     }
 

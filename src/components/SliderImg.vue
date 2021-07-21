@@ -2,8 +2,8 @@
   <section>
       <div class="container-fluid position-relative w-100">
           <div class="btn_group position-absolute">
-            <button @click="prevSlide()">prev</button> 
-            <button @click="nextSlide()">next</button> 
+            <button @click="prevSlide()"><i class="fas fa-arrow-left"></i></button> 
+            <button @click="nextSlide()"><i class="fas fa-arrow-right"></i></button> 
           </div>
 
             <div class="slide-box d-flex justify-content-around">
@@ -56,10 +56,17 @@ section {
     width: 98% !important;
     .btn_group {
     top: -160px;
-    right: 0
+    right: 0;
+    button{
+        padding: 10px 15px;
+        margin-left: 20px;
+        border: none;
+        background-color: rgba(110, 109, 110, 0.486);
+    }
+    }
 
 }
-}
+
 
 
 </style>
