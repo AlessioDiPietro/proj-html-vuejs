@@ -21,12 +21,14 @@ import Header from './components/Header.vue'
 import Main from './components/Main.vue'
 import Footer from './components/Footer.vue'
 
+
 export default {
   name: 'App',
   components: {
     Header,
     Main,
-    Footer
+    Footer,
+    
   },
   data(){
     return {
@@ -45,7 +47,7 @@ export default {
 @import "@/assets/ColorPhloxVar.scss";
 #app {
   background-color: $blue_bg;
-  // debug
   color: white;
-}
+    
+  }
 </style>
