@@ -16,7 +16,7 @@
             <span>ALWATS THE BEST WAY YOU NEED IT</span>
             <h1>THE BEST BUSINESS CONSULTING</h1>
             <button class="read_me">READ MORE</button>
-            <button><i class="fas fa-play"></i></button>
+            <button class="play_btn"><i class="fas fa-play"></i></button>
         </div>
 
       </div>
@@ -65,6 +65,14 @@ export default {
             }
             .read_me {
                 @include btn_maringreen;
+            }
+            .play_btn {
+                padding:15px 20px;
+                margin: 0 30px;
+                border-radius: 50%;
+                background-color: transparent;
+                border: 2px solid $int_maringreen_bg;
+                color: $int_maringreen_bg;
             }
         }
     }

@@ -7,7 +7,7 @@
                   <p class="w-25">When, while lovely valley teems with vapour around meand meridian sun strikes the upper impenetrable foliage of my trees, and but a thousand unknown</p>
               </div>
             </div>
-            <button class="position-absolute bottom-0 end-0">GET STARTED</button>
+            <button class="position-absolute bottom-0 end-0 started_btn">GET STARTED</button>
 
       </div>
   </section>
@@ -35,6 +35,9 @@ section{
     }
     p {
         font-size: 18px;
+    }
+    .started_btn{
+        @include btn_red;
     }
 }
 

@@ -11,7 +11,7 @@
                 </div>
 
                 <div class="btn_title p-0 col d-flex justify-content-end align-items-end">
-                    <button>VIEW ALL</button>
+                    <button class="btn_view">VIEW ALL</button>
                 </div>
                 
 
@@ -68,8 +68,10 @@ section {
         h2 {
             @include title_sec_name;
         }
-
     }
+    .btn_view {
+            @include btn_maringreen;
+        }
     aside {
         width: calc(100% / 2 - 20px);
         height: 590px;

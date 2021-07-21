@@ -50,12 +50,22 @@ $title_sec_size_max: 35px;
     margin-left: 5%;
 }
 @mixin btn_red{
-
+    border: none;
+    background-color: $int_red_bg;
+    padding: 22px 55px;
+    font-size: 18px;
 }
 @mixin btn_maringreen{
     border: none;
     background-color: $int_maringreen_bg;
-    padding: 22px 46px;
+    padding: 22px 55px;
+    font-size: 18px;
+}
+@mixin btn_blue{
+    border: none;
+    background-color: $blue_bg;
+    color: $white_txt;
+    padding: 22px 55px;
     font-size: 18px;
 }
 //! spaces

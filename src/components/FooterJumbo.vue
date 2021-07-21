@@ -31,7 +31,7 @@ section {
             font-size: 19px;
         }
         button{
-            color: $title_grey_txt
+            @include btn_blue;
         }
     }
     
