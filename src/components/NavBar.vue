@@ -5,7 +5,7 @@
             <!-- navbar -->
             <div class="px-4">
             <ul class="p-0">
-                <li v-for="(items,index) in navSuite" :key="index" class="mx-4"><a href="#">{{items}}</a></li>
+                <li v-for="(items,index) in navSuite" :key="index" class="mx-4"><a :href="'#'+items">{{items}}</a></li>
             </ul>
             </div>
 
@@ -42,20 +42,24 @@ export default {
                 list-style: none;
                 display: inline-block;
                 padding-top: 40px;
+                transition: all 1s;
             
                 &:hover {
                     border-top: 3px solid white;
                     padding-top: 37px;
-                    a{
-                        font-weight: 800;
-                        color: $white_txt;     
-                    }
+                    
                }
+                   
             }           
             a{
                 color: $title_grey_txt;
                 text-decoration: none;
+                &:focus {
+                font-weight: 800;
+                color: $white_txt;
             }
+            }
+            
         }
     } 
     

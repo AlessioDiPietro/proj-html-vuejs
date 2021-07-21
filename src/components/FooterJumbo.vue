@@ -1,5 +1,5 @@
 <template>
-  <section class="p-5">
+  <section class="p-5" id="CONTACT">
       <div class="container-fluidc p-5">
           <div class="box_content p-5 text-center">
               <h2>LET'S TALK ABOUT WORK</h2>

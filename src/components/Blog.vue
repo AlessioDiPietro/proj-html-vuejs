@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <section id="BLOG">
         <div class="container-fluid">
 
             <div class="row d-flex justify-content-between">

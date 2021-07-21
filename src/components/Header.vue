@@ -1,5 +1,5 @@
 <template>
-  <header>
+  <header id="HOME">
       <div class="red_side position-relative">
 
         <div class="header_top d-flex justify-content-between">

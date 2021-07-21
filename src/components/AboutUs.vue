@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <section id="ABOUT">
     <div class="container-fluid p-0">
         <div class="row w-100">
 
